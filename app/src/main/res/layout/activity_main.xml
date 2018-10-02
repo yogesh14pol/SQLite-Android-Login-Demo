@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.yogi.database_login.MainActivity">
+
+    <EditText
+        android:id="@+id/User_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Uesrname"
+        android:maxLength="15"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/Pass_Word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:maxLength="12"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/Log_In"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="10dp"
+        android:background="#099609"/>
+
+    <TextView
+        android:id="@+id/Click_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to SignUp"
+        android:textStyle="bold|italic"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
